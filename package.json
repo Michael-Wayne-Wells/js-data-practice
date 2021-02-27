@@ -1,0 +1,25 @@
+{
+  "name": "jsalgo",
+  "version": "1.0.0",
+  "description": "Javascript Data Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Wayne-Wells/js-data-practice.git"
+  },
+  "author": "Michael Wells",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Wayne-Wells/js-data-practice/issues"
+  },
+  "homepage": "https://github.com/Michael-Wayne-Wells/js-data-practice#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
