@@ -11,8 +11,8 @@ const estimatePi = (n) => {
     }
     pointsTotal += 1;
   }
-  let result = 4 * (pointsInCircle / pointsTotal);
-  return result;
+  let pi = 4 * (pointsInCircle / pointsTotal);
+  return pi;
 };
 
 module.exports = estimatePi;
