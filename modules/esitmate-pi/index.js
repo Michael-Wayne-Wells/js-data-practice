@@ -11,6 +11,7 @@ const estimatePi = (n) => {
     }
     pointsTotal += 1;
   }
+
   let pi = 4 * (pointsInCircle / pointsTotal);
   return pi;
 };
