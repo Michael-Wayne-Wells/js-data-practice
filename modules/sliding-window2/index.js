@@ -1,4 +1,4 @@
-const longest_substring_with_k_distinct = function (str, k) {
+function longest_substring_with_k_distinct(str, k) {
   let longest = 0;
   while (str.length >= 1) {
     let charFrequency = {},
@@ -16,4 +16,4 @@ const longest_substring_with_k_distinct = function (str, k) {
     if (tempLongest > longest) longest = tempLongest;
   }
   return longest;
-};
+}

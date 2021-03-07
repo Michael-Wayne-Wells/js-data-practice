@@ -1,4 +1,4 @@
-const estimatePi = require("./index");
+import estimatePi from "./index";
 
 test("it returns a result", () => {
   expect(estimatePi(1)).toBeDefined();

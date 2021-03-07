@@ -1,4 +1,4 @@
-const max_sub_array_of_size_k = require("./index");
+import max_sub_array_of_size_k from "./index";
 
 test("function returns max sum of subarrays defined by k", () => {
   const array = [

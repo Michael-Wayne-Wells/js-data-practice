@@ -1,4 +1,4 @@
-const max_sub_array_of_size_k = function (k, arr) {
+function max_sub_array_of_size_k(k, arr) {
   let result = 0,
     windowSum = 0,
     windowStart = 0;
@@ -12,6 +12,6 @@ const max_sub_array_of_size_k = function (k, arr) {
   }
 
   return result;
-};
+}
 
-module.exports = max_sub_array_of_size_k;
+export default max_sub_array_of_size_k;
